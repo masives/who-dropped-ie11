@@ -29,5 +29,5 @@
 <div class="card-wrapper">
   <div class="logo-wrapper"><img src={card.logo} alt={`${card.name} logo`} /></div>
   <p>{card.name}</p>
-  <a href={card.article}>Article link</a>
+  <a href={card.article} target="_blank" rel="noopener noreferrer">Article link</a>
 </div>
