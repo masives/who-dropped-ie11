@@ -717,6 +717,11 @@ svelte-check@^1.0.0:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
+svelte-lazy@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/svelte-lazy/-/svelte-lazy-1.0.8.tgz#f1bfdfc29c3c32e1999e132585d551f9d9f6105d"
+  integrity sha512-wWuDQo/6rWpkAQANI966+jy0mTmtXQsvtS97JL0EjK0EEbsw7NMa7/xpTOf3CpY8bgiQMvTTOqAh4vMG5j47lA==
+
 svelte-preprocess@^4.0.0:
   version "4.6.1"
   resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-4.6.1.tgz#a7de4d91b32d5608b6637da960ee81e6089ae276"

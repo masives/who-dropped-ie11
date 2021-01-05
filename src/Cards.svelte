@@ -1,5 +1,6 @@
 <script lang="ts">
   import data from './data';
+  import Lazy from 'svelte-lazy';
 </script>
 
 <style>
@@ -58,7 +59,9 @@
 <ul class="cards-grid">
   {#each data as card}
     <li class="card-wrapper">
-      <div class="logo-wrapper"><img src={card.logo} alt={`${card.name} logo`} /></div>
+      <div class="logo-wrapper">
+        <Lazy height="3rem"><img src={card.logo} alt={`${card.name} logo`} /></Lazy>
+      </div>
       <p>{card.name}</p>
       <a href={card.article} target="_blank" rel="noopener noreferrer">Article link</a>
     </li>
