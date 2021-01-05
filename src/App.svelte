@@ -27,7 +27,10 @@
     I decided to make a simple app to list companies, frameworks and libraries that has dropped support for ie11.
   </p>
   <p>Below each company you can find an article/announcement/helpdesk reply confirming dropped support.</p>
-  <p>If you know more and want to expand this list please submit a pull request at github.</p>
+  <p>
+    If you know more and want to expand this list
+    <a href="https://github.com/masives/who-dropped-ie11" target="_blank" rel="noopener noreferrer">please submit a pull request at github</a>.
+  </p>
 </header>
 <main>
   <Cards />
