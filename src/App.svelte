@@ -1,7 +1,5 @@
 <script lang="ts">
-  import Card from './Card.svelte';
-  import data from './data';
-  console.log({ data });
+  import Cards from './Cards.svelte';
 </script>
 
 <style>
@@ -13,30 +11,6 @@
   .trollface-img {
     height: auto;
     max-width: 300px;
-  }
-  .cards-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 1rem;
-    row-gap: 1rem;
-  }
-
-  @media (max-width: 1024px) {
-    .cards-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (max-width: 800px) {
-    .cards-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  @media (max-width: 500px) {
-    .cards-grid {
-      grid-template-columns: 1fr;
-    }
   }
 </style>
 
@@ -56,9 +30,5 @@
   <p>If you know more and want to expand this list please submit a pull request at github.</p>
 </header>
 <main>
-  <div class="cards-grid">
-    {#each data as card}
-      <Card {card} />
-    {/each}
-  </div>
+  <Cards />
 </main>
