@@ -36,7 +36,7 @@ const entries: Entry[] = [
     logo: 'logos/trello.svg',
   },
   {
-    name: 'Atlasian',
+    name: 'Atlassian',
     article:
       'https://community.atlassian.com/t5/Feedback-Forum-articles/Retiring-IE11-support-for-Atlassian-cloud-server-and-data-center/ba-p/1185312',
     logo: 'logos/atlassian.png',
